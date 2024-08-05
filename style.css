@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 4px;
+    padding: 2px;
+    background-color: rgb(90, 128, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     ;
+
+     
+}
+.class{
+    position: st;
+    width: 100px;
+    left: 100px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(247, 243, 243)
+
+}
+
+
+.fixo{
+    position: absolute;
+    width: 50px;
+    border-right: 0cm;
+    border: 2px solid red;
+    left: 50%;
+    
+    
+    
+}
