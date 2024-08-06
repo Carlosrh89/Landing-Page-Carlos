@@ -1,16 +1,35 @@
-
-
+/* Reset CSS */
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
     margin: 4px;
     padding: 2px;
     background-color: rgb(90, 128, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     ;
-
-     
 }
+
+p {
+    margin: 10px 15px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
 .class{
-    position: st;
+    margin: 10px auto;
     width: 100px;
     left: 100px;
     width: 600px;
@@ -20,13 +39,31 @@
 }
 
 
-.fixo{
-    position: absolute;
-    width: 50px;
-    border-right: 0cm;
-    border: 2px solid red;
-    left: 50%;
+.img{
     
-    
-    
+    text-align: center;
+
+}
+
+h1{
+text-align: center;
+color: antiquewhite;
+font-style: oblique;
+font-weight: 500;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato button {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contato a {
+    padding: 10px 110px;
+    text-decoration: none;
+    color: #000;
 }
